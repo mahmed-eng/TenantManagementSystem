@@ -9,7 +9,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 
-IF (EXISTS (SELECT * 
+IF (NOT EXISTS (SELECT * 
                  FROM INFORMATION_SCHEMA.TABLES 
                  WHERE TABLE_SCHEMA = 'TheSchema' 
                  AND  TABLE_NAME = 'Branch_tb'))
