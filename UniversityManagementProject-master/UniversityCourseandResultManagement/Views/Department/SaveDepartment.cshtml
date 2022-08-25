@@ -1,0 +1,82 @@
+﻿@model UniversityCourseandResultManagement.Models.Department
+@{
+    ViewBag.Title = "Department Save";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .footer-position {
+            margin-bottom: 110px;
+        }
+
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+}
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            @*save*@
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Save Department
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center footer-position">
+                            @using (Html.BeginForm(null, null, FormMethod.Post))
+                            {
+                               
+                                    <div class="form-group">
+                                        @Html.LabelFor(d => d.DeptCode)
+                                        @Html.TextBoxFor(d => d.DeptCode, new { @class = "form-control" })
+
+                                        @Html.ValidationMessageFor(d => d.DeptCode)
+                                    </div>
+
+                                    <div class="form-group">
+                                        @Html.LabelFor(d => d.DeptName)
+                                        @Html.TextBoxFor(d => d.DeptName, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(d => d.DeptName)
+                                    </div>
+                                    <button type="submit" class="btn btn-info">Save</button>
+                            }
+
+                        </div>
+                        @{
+                            if (ViewBag.Message == null)
+                            { }
+                            else
+                            {
+                                <div class="alert alert-success" role="alert">
+                                    <strong>@ViewBag.Message</strong>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            }
+                        }
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <script>
+        document.getElementById('DeptCode').value = '';
+        document.getElementById('DeptName').value = '';
+    </script>
+
+}
+

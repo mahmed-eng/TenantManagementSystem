@@ -1,0 +1,73 @@
+﻿@model UniversityCourseandResultManagement.Driver_tb
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Driver_tb</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_Vehicle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_Vehicle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Drver_Route)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Drver_Route)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_CNIC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_CNIC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_License)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_License)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

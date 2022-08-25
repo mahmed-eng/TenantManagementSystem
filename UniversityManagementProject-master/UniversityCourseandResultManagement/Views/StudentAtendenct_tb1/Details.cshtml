@@ -1,0 +1,43 @@
+﻿@model UniversityCourseandResultManagement.StudentAtendenct_tb
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>StudentAtendenct_tb</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.StudentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StudentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AttendenceDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AttendenceDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Student_tb.StudentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Student_tb.StudentName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,108 @@
+﻿@model UniversityCourseandResultManagement.Models.Student
+@{
+    ViewBag.Title = "Register Student";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+    <link href="~/Content/BackEnd/css/jqueryUI.css" rel="stylesheet" />
+}
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Register Student
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">                           
+
+
+                            @using (Html.BeginForm("ShowRegisteredStudent", "Student", FormMethod.Post))
+                            {
+                                <div class="form-group">
+                                    @Html.LabelFor(s => s.StudentName)
+                                    @Html.TextBoxFor(s => s.StudentName, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(s => s.StudentName)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(s => s.StudentEmail)
+                                    @Html.TextBoxFor(s => s.StudentEmail, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(s => s.StudentEmail)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(s => s.StudentContact)
+                                    @Html.TextBoxFor(s => s.StudentContact, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(s => s.StudentContact)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(s => s.RegDate)
+                                    @Html.TextBoxFor(s => s.RegDate, new { @class = "form-control"})
+                                    @Html.ValidationMessageFor(s => s.RegDate)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(s => s.StudentAddress)
+                                    @Html.TextAreaFor(s => s.StudentAddress, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(s => s.StudentAddress)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(s => s.DeptId)
+                                    @Html.DropDownListFor(s => s.DeptId, new SelectList(ViewBag.Departments, "Id", "DeptName"), "------Select Department------", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(s => s.DeptId)
+                                </div>
+
+                                <button type="submit" class="btn btn-info">Register</button>
+                            }
+
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Content/BackEnd/js/jqueryUI.js"></script>
+
+    <script>
+        document.getElementById('StudentName').value = '';
+        document.getElementById('StudentEmail').value = '';
+        document.getElementById('StudentContact').value = '';
+        document.getElementById('StudentAddress').value = '';
+        document.getElementById('DeptId').value = '';
+    </script>
+    
+    <script>
+        $().ready(function () {
+
+            $("#RegDate").datepicker({
+                changeMonth: false,
+                changeYear: false,
+                dateFormat: "yy-mm-dd",
+                minDate: 0,
+                maxDate: 0
+            }).datepicker('setDate', 'today');
+
+        });
+    </script>
+
+}

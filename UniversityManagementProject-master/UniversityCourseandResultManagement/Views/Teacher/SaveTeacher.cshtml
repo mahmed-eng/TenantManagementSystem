@@ -1,0 +1,118 @@
+﻿@model UniversityCourseandResultManagement.Models.Teacher
+@{
+    ViewBag.Title = "Teacher Save";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .field-validation-error {
+            color: red;
+        }
+    </style>
+}
+
+
+
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Save Teacher
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+
+
+                            @using (Html.BeginForm(null, null, FormMethod.Post))
+                            {
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.TeacherName)
+                                    @Html.TextBoxFor(t => t.TeacherName, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.TeacherName)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.TeacherAddress)
+                                    @Html.TextAreaFor(t => t.TeacherAddress, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.TeacherAddress)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.TracherEmail)
+                                    @Html.TextBoxFor(t => t.TracherEmail, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.TracherEmail)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.TracherContact)
+                                    @Html.TextBoxFor(t => t.TracherContact, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.TracherContact)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.DesignationId)
+                                    @Html.DropDownListFor(t => t.DesignationId, new SelectList(ViewBag.Designations, "Id", "DesignationName"), "------Select Designation------", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.DesignationId)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.DeptId)
+                                    @Html.DropDownListFor(t => t.DeptId, new SelectList(ViewBag.Departments, "Id", "DeptName"), "------Select Department------", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.DeptId)
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(t => t.Credit)
+                                    @Html.TextBoxFor(t => t.Credit, new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(t => t.Credit)
+                                </div>
+                                <button type="submit" class="btn btn-info">Save</button>
+                            }
+
+                        </div>
+                        
+                        <br /><br />
+
+                        @{
+                            if (ViewBag.Message == null)
+                            { }
+                            else
+                            {
+                                <div class="alert alert-success" role="alert">
+                                    <strong>@ViewBag.Message</strong>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                            }
+                        }
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.js"></script>
+    
+    <script>
+        document.getElementById('TeacherName').value = '';
+        document.getElementById('TeacherAddress').value = '';
+        document.getElementById('TracherEmail').value = '';
+        document.getElementById('TracherContact').value = '';
+        document.getElementById('DesignationId').value = '';
+        document.getElementById('DeptId').value = '';
+        document.getElementById('Credit').value = '';
+    </script>
+
+}

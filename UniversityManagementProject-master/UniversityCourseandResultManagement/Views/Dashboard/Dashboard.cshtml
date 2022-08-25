@@ -1,0 +1,132 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<section class="wrapper">
+    <div class="market-updates">
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-2">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-user"> </i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Teachers</h4>
+                    <h3>@ViewBag.Teachers</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-1">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-male"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Students</h4>
+                    <h3>@ViewBag.Students</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-3">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-list-alt"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Departments</h4>
+                    <h3>@ViewBag.Company</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+
+        @*Lessor
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-3">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-list-alt"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Departments</h4>
+                    <h3>@ViewBag.Lessor</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>*@
+
+        @*Lessee
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-3">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-list-alt"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Departments</h4>
+                    <h3>@ViewBag.Lessee</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+*@
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-3">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-list-alt"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Departments</h4>
+                    <h3>@ViewBag.Departments</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="col-md-3 market-update-gd">
+            <div class="market-update-block clr-block-4">
+                <div class="col-md-4 market-update-right icon">
+                    <i class="fa fa-trello" aria-hidden="true"></i>
+                </div>
+                <div class="col-md-8 market-update-left">
+                    <h4>Class Rooms</h4>
+                    <h3>@ViewBag.Rooms</h3>
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+        <!-- tasks -->
+        <div>
+            <div class="col-md-12">
+                <div class="agile-last-grid">
+                    <div class="area-grids-heading">
+                        <h3>Department Statistics</h3>
+                    </div>
+                    <div id="graph8"></div>
+                    <script type="text/javascript">
+
+                    var dept_data = [];
+
+                    @foreach (var data in ViewBag.Chart)
+                        {
+                            <text>
+                                var a = "@data.DeptCode";
+                                dept_data.push({ "dept": a, "student": @data.TotalStudent });
+                            </text>
+                        }
+
+
+                    Morris.Bar({
+                        element: 'graph8',
+                        data: dept_data,
+                        xkey: 'dept',
+                        ykeys: ['student'],
+                        labels: ['Total Student'],
+                        xLabelAngle: 0
+                    });
+                    </script>
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</section>

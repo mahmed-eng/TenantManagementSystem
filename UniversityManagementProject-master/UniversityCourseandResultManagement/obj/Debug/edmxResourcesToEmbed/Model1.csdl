@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Admin_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="AssignTeacher_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="TeacherId" Type="Int32" Nullable="false" />
+    <Property Name="CourseId" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Course_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CourseCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CourseName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CourseCredit" Type="Decimal" Precision="5" Scale="3" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="SemesterId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Department_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DeptName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Designation_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DesignationName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Enroll_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="CourseId" Type="Int32" Nullable="false" />
+    <Property Name="EnrollDate" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Grade_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Grade" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Result_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentId" Type="Int32" Nullable="false" />
+    <Property Name="CourseId" Type="Int32" Nullable="false" />
+    <Property Name="GradeId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Room_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoomNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RoomAllocation_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="CourseId" Type="Int32" Nullable="false" />
+    <Property Name="RoomId" Type="Int32" Nullable="false" />
+    <Property Name="Day" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartTime" Type="Time" Nullable="false" Precision="0" />
+    <Property Name="EndTime" Type="Time" Nullable="false" Precision="0" />
+    <Property Name="Status" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Semester_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SemesterName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StudentEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StudentContact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RegDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="StudentAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="RegisterNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="StudentAttendance_tb" Relationship="Self.FK__StudentAt__Std_i__3F466844" FromRole="Student_tb" ToRole="StudentAttendance_tb" />
+  </EntityType>
+  <EntityType Name="StudentAttendance_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="AttendanceStatus" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Std_id" Type="Int32" />
+    <NavigationProperty Name="Student_tb" Relationship="Self.FK__StudentAt__Std_i__3F466844" FromRole="StudentAttendance_tb" ToRole="Student_tb" />
+  </EntityType>
+  <EntityType Name="Teacher_tb">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeacherName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TeacherAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TracherEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="TracherContact" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DesignationId" Type="Int32" Nullable="false" />
+    <Property Name="DeptId" Type="Int32" Nullable="false" />
+    <Property Name="Credit" Type="Decimal" Precision="5" Scale="3" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__StudentAt__Std_i__3F466844">
+    <End Role="Student_tb" Type="Self.Student_tb" Multiplicity="0..1" />
+    <End Role="StudentAttendance_tb" Type="Self.StudentAttendance_tb" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student_tb">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentAttendance_tb">
+        <PropertyRef Name="Std_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Admin_tb" EntityType="Self.Admin_tb" />
+    <EntitySet Name="AssignTeacher_tb" EntityType="Self.AssignTeacher_tb" />
+    <EntitySet Name="Course_tb" EntityType="Self.Course_tb" />
+    <EntitySet Name="Department_tb" EntityType="Self.Department_tb" />
+    <EntitySet Name="Designation_tb" EntityType="Self.Designation_tb" />
+    <EntitySet Name="Enroll_tb" EntityType="Self.Enroll_tb" />
+    <EntitySet Name="Grade_tb" EntityType="Self.Grade_tb" />
+    <EntitySet Name="Result_tb" EntityType="Self.Result_tb" />
+    <EntitySet Name="Room_tb" EntityType="Self.Room_tb" />
+    <EntitySet Name="RoomAllocation_tb" EntityType="Self.RoomAllocation_tb" />
+    <EntitySet Name="Semester_tb" EntityType="Self.Semester_tb" />
+    <EntitySet Name="Student_tb" EntityType="Self.Student_tb" />
+    <EntitySet Name="StudentAttendance_tb" EntityType="Self.StudentAttendance_tb" />
+    <EntitySet Name="Teacher_tb" EntityType="Self.Teacher_tb" />
+    <AssociationSet Name="FK__StudentAt__Std_i__3F466844" Association="Self.FK__StudentAt__Std_i__3F466844">
+      <End Role="Student_tb" EntitySet="Student_tb" />
+      <End Role="StudentAttendance_tb" EntitySet="StudentAttendance_tb" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

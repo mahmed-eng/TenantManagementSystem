@@ -1,0 +1,67 @@
+﻿@model UniversityCourseandResultManagement.Driver_tb
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Driver_tb</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_Vehicle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_Vehicle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Drver_Route)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Drver_Route)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_CNIC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_CNIC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Driver_License)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Driver_License)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Driver_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

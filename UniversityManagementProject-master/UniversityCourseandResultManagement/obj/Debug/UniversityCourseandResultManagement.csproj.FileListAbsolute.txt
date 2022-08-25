@@ -1,0 +1,664 @@
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csprojResolveAssemblyReference.cache
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\Mehedi Hasan\Desktop\UniversityCourseandResultManagement\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.AssemblyReference.cache
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\OneDrive\Desktop\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.AssemblyReference.cache
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.AssemblyReference.cache
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\Downloads\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+C:\Users\Arittek-014\OneDrive\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.AssemblyReference.cache
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.AssemblyReference.cache
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+E:\Desktop\Projects\School Management System\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+E:\Haris\Accounts details\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.AssemblyReference.cache
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csprojAssemblyReference.cache
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\haris\OneDrive\Desktop\New folder\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+C:\Users\haris\OneDrive\Desktop\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csprojAssemblyReference.cache
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csprojAssemblyReference.cache
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+F:\erp\SMS\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CoreCompileInputs.cache
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll.config
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\UniversityCourseandResultManagement.pdb
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\eCryptography.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Web.Infrastructure.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Owin.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebGrease.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\EntityFramework.SqlServer.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Helpers.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Mvc.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Optimization.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.Razor.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Deployment.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\System.Web.WebPages.Razor.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Newtonsoft.Json.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Antlr3.Runtime.pdb
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.Data.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\WebMatrix.WebData.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Core.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Facebook.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Cookies.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.OAuth.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Google.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.Twitter.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csproj.CopyComplete
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.dll
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.pdb
+E:\SMS\UniversityManagementProject-master\UniversityCourseandResultManagement\obj\Debug\UniversityCourseandResultManagement.csprojAssemblyReference.cache

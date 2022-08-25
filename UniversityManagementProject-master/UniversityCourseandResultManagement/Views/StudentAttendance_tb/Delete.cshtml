@@ -1,0 +1,58 @@
+﻿@model UniversityCourseandResultManagement.StudentAttendance_tb
+
+@{
+    ViewBag.Title = "Delete Record";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+    <br /> <br /> <br /> <br />
+    <h2>Are you sure you want to delete this?</h2>
+    <div>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Date)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Date)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.AttendanceStatus)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.AttendanceStatus)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Student_tb.StudentName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Student_tb.StudentName)
+            </dd>
+
+        </dl>
+
+        @using (Html.BeginForm())
+        {
+            @Html.AntiForgeryToken()
+
+            <div class="form-actions no-color">
+                <input type="submit" value="Delete" class="btn btn-default" /> |
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+        }
+    </div>
+</body>
+</html>

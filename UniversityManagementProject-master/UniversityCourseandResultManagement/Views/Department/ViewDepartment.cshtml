@@ -1,0 +1,70 @@
+﻿@{
+    ViewBag.Title = "ViewDepartment";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .bg-table {
+            background: #222222;
+        }
+    </style>
+    <link href="~/Content/BackEnd/css/dataTables.bootstrap.css" rel="stylesheet" />
+}
+
+<section class="wrapper">
+    <div class="col-md-6 col-md-offset-3">
+        <div class="table-agile-info">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    View All Departments
+                </div>
+                <div>
+                    <table id="deptTable" class="table table-responsive table-striped" style="width: 100%">
+                        <thead>
+                            <tr class="bg-table">
+                                <th>Code</th>
+                                <th>Name</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{
+                                foreach (var department in ViewBag.Departments)
+                                {
+                                    <tr>
+                                        <td>@department.DeptCode</td>
+                                        <td>@department.DeptName</td>
+                                    </tr>
+                                }
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function() {
+            $('#deptTable').DataTable({
+                bFilter: false,
+                "language": {
+                    "info": "(_START_ to _END_) of _TOTAL_ departments",
+                    "paginate": {
+                        "next": '&raquo;',
+                        "previous": '&laquo;'
+                    },
+                    "sLengthMenu": "_MENU_ records"
+                },
+                "aLengthMenu": [[5, 10, -1], [5, 10, "All"]],
+                "iDisplayLength": 5
+            });
+        });
+    </script>
+    <script src="~/Content/BackEnd/js/jquery.dataTables.js"></script>
+    <script src="~/Content/BackEnd/js/dataTables.bootstrap.js"></script>
+}

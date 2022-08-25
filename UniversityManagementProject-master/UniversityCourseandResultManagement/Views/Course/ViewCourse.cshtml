@@ -1,0 +1,97 @@
+﻿@model UniversityCourseandResultManagement.Models.CourseVM
+@{
+    ViewBag.Title = "View Course Statics";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .bg-table {
+            background: #01687A;
+        }
+    </style>
+}
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        View Course Statics
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+
+
+                            @using (Html.BeginForm(null, null, FormMethod.Post))
+                            {
+                                
+                                <div class="form-group">
+                                    @Html.LabelFor(c => c.DeptId)
+                                    @Html.DropDownListFor(c => c.DeptId, new SelectList(ViewBag.Departments, "Id", "DeptName"), "------Select Department------", new { @class = "form-control" })
+                                </div>
+                            }
+
+                        </div>
+                        
+                        <div class="col-md-10 col-md-offset-1">
+                            <table class="table table-responsive table-striped" id="viewCourse">
+                                <thead>
+                                <tr class="bg-table">
+                                    <th>Code</th>
+                                    <th>Name/Title</th>
+                                    <th>Semester</th>
+                                    <th>Assigned To</th>
+                                </tr>
+                                </thead>
+                                <tbody id="courses"></tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#DeptId").change(function () {
+                var departmentId = $("#DeptId").val();
+                $("#courses").empty();
+                var json = { Id: departmentId };
+                var TName = null;
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetCourseByDepartmentId", "Course")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (courses) {
+                        for (var i = 0; i < courses.length; i++) {
+                            if (courses[i].Status === "True") {
+                                TName = courses[i].TeacherName;
+                            } else {
+                                TName = 'Not Assigned Yet';
+                            }
+                            $("#viewCourse").find('tbody').append(
+                                '<tr><td>' + courses[i].CourseCode + '</td>' +
+                                '<td>' + courses[i].CourseName + '</td>' +
+                                '<td>' + courses[i].SemesterName + '</td>' +
+                                '<td>' + TName + '</td></tr>');
+                        }
+                    }
+                });
+            });
+        });
+
+
+    </script>
+}
+

@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Unassign All Courses";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-6 col-lg-offset-3">
+                <section class="panel">
+                    <header class="panel-heading">
+                        Unassign All Courses
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+
+
+                            @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "myForm" }))
+                            {
+                                <button type="submit" class="btn btn-danger form-control">Unassign Courses</button>
+                                @Html.Hidden("id",1)
+
+                            }
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</section>
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $(function () {
+                $("#myForm").on("submit", function (e) {
+                    var x = confirm('Are you sure to unassign all courses?');
+                    if (x) {
+                        return true;
+                    } else {
+                        return false;
+                    }
+                });
+            });
+
+        });
+    </script>
+}
+
+
+
+
+
+

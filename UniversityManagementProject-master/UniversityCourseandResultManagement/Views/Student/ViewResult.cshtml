@@ -1,0 +1,234 @@
+﻿@model UniversityCourseandResultManagement.Models.ResultVM
+@{
+    ViewBag.Title = "View Result";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .bg-table {
+            background: #222222;
+        }
+    </style>
+    <link href="~/Content/BackEnd/css/print.css" rel="stylesheet" />
+}
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        View Result
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+
+
+                            @using (Html.BeginForm(null, null, FormMethod.Post))
+                            {
+                                <div class="form-group">
+                                    @Html.LabelFor(vr => vr.StudentId)
+                                    @Html.DropDownListFor(vr => vr.StudentId, new SelectList(ViewBag.Students, "Id", "RegNo"), "------Select Student------", new { @class = "form-control" })
+                                </div>
+
+                            }
+
+                            <div class="form-group">
+                                @Html.LabelFor(vr => vr.StudentName)
+                                @Html.TextBoxFor(vr => vr.StudentName, new { @class = "form-control", @readonly = "readonly" })
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(vr => vr.StudentEmail)
+                                @Html.TextBoxFor(vr => vr.StudentEmail, new { @class = "form-control", @readonly = "readonly" })
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(vr => vr.StudentDept)
+                                @Html.TextBoxFor(vr => vr.StudentDept, new { @class = "form-control", @readonly = "readonly" })
+                            </div>
+
+                            <button type="submit" onclick="printDiv('pdf')" class="btn btn-info">Make PDF</button>
+                            
+
+                        </div>
+                        <br /><br />
+                        <div class="col-md-8 col-md-offset-2">
+                            <table id="resultTable" class="table table-responsive table-striped">
+                                <thead>
+                                <tr class="bg-table">
+                                    <th>Course Code</th>
+                                    <th>Name</th>
+                                    <th>Grade</th>
+                                </tr>
+                                </thead>
+                                <tbody id="ShowResult"> </tbody>
+                            </table>
+                        </div>
+                        
+                        <div id="pdf">
+                            <div class="logo">
+                                <img src="~/Content/BackEnd/images/diu.png" />
+                                <h3 class="text-center"> School Name </h3>
+                                <h4 class="text-center"> Academic Result </h4>
+
+                                <table id="nameRegTable" class="table table-agile-info">
+                                    <thead>
+                                        <tr>
+                                            <th>Name:
+                                            <th>Student Id:</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="nameReg"></tbody>
+                                </table>
+                            </div>
+                            <div class="result">
+                                <table id="resultTableprint" class="table table-bordered table-striped">
+                                    <thead>
+                                        <tr class="success">
+                                            <th>Course Code</th>
+                                            <th>Name</th>
+                                            <th>Grade</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="ShowResultprint"></tbody>
+                                </table>
+                            </div>
+                            <p id="signature">Controller of Examination</p>
+                            <div>
+                                <p id="time"></p>
+                                <p id="date"></p>
+                                <script>
+                                    var time = new Date();
+                                    document.getElementById("time").innerHTML =
+                                        time.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
+
+                                    var d = new Date();
+                                    document.getElementById("date").innerHTML = d.toDateString();
+                                </script>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+
+            $("#StudentId").change(function () {
+                var stdId = $("#StudentId").val();
+                var json = { Id: stdId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetStudentById", "Course")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function(data) {
+                        $("#StudentName").val(data.StudentName);
+                        $("#StudentEmail").val(data.StudentEmail);
+                        $("#StudentDept").val(data.StudentDepartment);
+                    }
+                });
+            });
+
+            $("#StudentId").change(function () {
+                var stdId = $("#StudentId").val();
+                $("#nameReg").empty();
+                var json = { Id: stdId };
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetStudentById", "Course")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (data) {
+                        $("#nameRegTable").find('tbody').append('<tr><td>' + data.StudentName + '</td>' +
+                            '<td>' + data.RegNo + '</td></tr>');
+                    }
+                });
+            });
+
+            $("#StudentId").change(function () {
+                var stdId = $("#StudentId").val();
+                $("#ShowResult").empty();
+                var json = { Id: stdId };
+                var grade = null;
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetResultByStudentId", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (results) {
+                        for (var i = 0; i < results.length; i++) {
+                            if (results[i].Grade === "") {
+                                grade = 'Not Graded Yet';
+                            } else {
+                                grade = results[i].Grade;
+                            }
+                            $("#resultTable").find('tbody').append('<tr><td>' + results[i].CourseCode + '</td>' +
+                                '<td>' + results[i].CourseName + '</td>' +
+                                '<td>' + grade + '</td></tr>');
+                        }
+                    }
+                });
+            });
+
+            $("#StudentId").change(function () {
+                var stdId = $("#StudentId").val();
+                $("#ShowResultprint").empty();
+                var json = { Id: stdId };
+                var grade = null;
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetResultByStudentId", "Student")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (results) {
+                        for (var i = 0; i < results.length; i++) {
+                            if (results[i].Grade === "") {
+                                grade = 'Not Graded Yet';
+                            } else {
+                                grade = results[i].Grade;
+                            }
+                            $("#resultTableprint").find('tbody').append('<tr><td>' + results[i].CourseCode + '</td>' +
+                                '<td>' + results[i].CourseName + '</td>' +
+                                '<td>' + grade + '</td></tr>');
+                        }
+                    }
+                });
+            });
+
+
+
+
+        });
+    </script>
+    
+    <script>
+        function printDiv(pdf) {
+            var printContents = document.getElementById(pdf).innerHTML;
+            var originalContents = document.body.innerHTML;
+
+            document.body.innerHTML = printContents;
+
+            window.print();
+
+            document.body.innerHTML = originalContents;
+        }
+    </script>
+
+
+
+}
+
+

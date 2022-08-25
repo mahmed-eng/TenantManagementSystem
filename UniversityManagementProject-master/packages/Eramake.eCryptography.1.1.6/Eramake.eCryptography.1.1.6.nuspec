@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Eramake.eCryptography</id>
+    <version>1.1.6</version>
+    <title>eCryptography</title>
+    <authors>Eramake</authors>
+    <owners>Eramake</owners>
+    <projectUrl>http://mutefix.com/cms/30102/eCryptography</projectUrl>
+    <iconUrl>http://nuget.eramake.com/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>NET 4.5, MVC 5.0.0 Package encrypt decrypt string.</description>
+    <summary>NET 4.5, MVC 5.0.0 Package encrypt decrypt string.</summary>
+  </metadata>
+</package>

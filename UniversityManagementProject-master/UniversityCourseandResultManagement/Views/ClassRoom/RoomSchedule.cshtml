@@ -1,0 +1,96 @@
+﻿@model UniversityCourseandResultManagement.Models.ClassRoomAllocateVM
+@{
+    ViewBag.Title = "Class Room Schedule";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+@section styles
+{
+    <style>
+        .bg-table {
+            background: #01687A;
+        }
+    </style>
+}
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        View Class Schedule & Room Allocation Information
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+
+
+                            @using (Html.BeginForm(null, null, FormMethod.Post))
+                            {
+
+                                <div class="form-group">
+                                    @Html.LabelFor(c => c.DeptId)
+                                    @Html.DropDownListFor(c => c.DeptId, new SelectList(ViewBag.Departments, "Id", "DeptName"), "------Select Department------", new { @class = "form-control" })
+                                </div>
+                            }
+
+                        </div>
+
+                        <div class="col-md-10 col-md-offset-1">
+                            <table class="table table-responsive table-striped" id="viewroom">
+                                <thead>
+                                <tr class="bg-table">
+                                    <th>Code</th>
+                                    <th>Name/Title</th>
+                                    <th>Schedule Info</th>
+                                </tr>
+                                </thead>
+                                <tbody id="schedule"></tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $("#DeptId").change(function () {
+                var departmentId = $("#DeptId").val();
+                $("#schedule").empty();
+                var json = { Id: departmentId };
+                var Schedule = null;
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("GetRoomScheduleByDepartmentId", "ClassRoom")',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(json),
+                    success: function (roomes) {
+                        for (var i = 0; i < roomes.length; i++) {
+                            if (roomes[i].Status === "True") {
+                                Schedule = roomes[i].FullSchedule;
+                            } else {
+                                Schedule = 'Not Scheduled Yet';
+                            }
+                            $("#viewroom").find('tbody').append(
+                                '<tr><td>' + roomes[i].CourseCode + '</td>' +
+                                '<td>' + roomes[i].CourseName + '</td>' +
+                                '<td>' + Schedule +'</td></tr>');
+                        }
+                    }
+                });
+            });
+        });
+
+
+    </script>
+}
+

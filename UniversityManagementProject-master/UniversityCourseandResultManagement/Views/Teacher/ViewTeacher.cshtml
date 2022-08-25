@@ -1,0 +1,183 @@
+﻿@model IEnumerable<UniversityCourseandResultManagement.Models.Teacher>
+
+@{ ViewBag.Title = "View Teachers";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+
+@section styles
+{
+    <style>
+        .bg-table {
+            background: #01687A;
+        }
+    </style>
+}
+
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        View Teachers Details
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+
+                            @*<table class="table">
+                               <tr>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TeacherName)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TeacherAddress)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TracherEmail)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.TracherContact)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.DesignationId)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.DeptId)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.Credit)
+                                    </th>
+                                    <th>
+                                        @Html.DisplayNameFor(model => model.RemainingCredit)
+                                    </th>
+                                    <th></th>
+                                </tr>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TeacherName)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TeacherAddress)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TracherEmail)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.TracherContact)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DesignationId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.DeptId)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.Credit)
+                                        </td>
+                                        <td>
+                                            @Html.DisplayFor(modelItem => item.RemainingCredit)
+                                        </td>
+                                        <td>
+                                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                                        </td>
+                                    </tr>
+                                }
+
+                            </table>*@
+                        </div>
+
+
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>View Teachers</title>
+
+</head> 
+<body>
+    
+    <table class="table">
+        <tr class="table-secondary">
+            <th>
+                <span style="color:#20B2AA;"> @Html.DisplayNameFor(model => model.TeacherName)</span>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeacherAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TracherEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TracherContact)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DesignationId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DeptId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Credit)
+            </th>
+            @*<th>
+                @Html.DisplayNameFor(model => model.RemainingCredit)
+            </th>*@
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeacherName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeacherAddress)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TracherEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TracherContact)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DesignationId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeptId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Credit)
+                </td>
+                @*<td>
+                    @Html.DisplayFor(modelItem => item.RemainingCredit)
+                </td>*@
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    
+    @{
+        if (Session["Id"] == null)
+        {
+            Response.Redirect("../Admin/Login");
+        }
+    }
+    <title>@ViewBag.Title | SCMS</title>
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/BackEnd/images/uni.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="University, Result"/>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href="~/Content/BackEnd/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="~/Content/BackEnd/css/style.css" rel='stylesheet' type='text/css'/>
+    <link href="~/Content/BackEnd/css/style-responsive.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="~/Content/BackEnd/css/font.css" type="text/css"/>
+    <link href="~/Content/BackEnd/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/BackEnd/css/morris.css" type="text/css"/>
+    <link rel="stylesheet" href="~/Content/BackEnd/css/monthly.css">
+    <script src="~/Content/BackEnd/js/jquery2.0.3.min.js"></script>
+    <script src="~/Content/BackEnd/js/raphael-min.js"></script>
+    <script src="~/Content/BackEnd/js/morris.js"></script>
+    @RenderSection("styles", required: false)
+</head>
+<body>
+    <section id="container">
+        <header class="header fixed-top clearfix">
+            <div class="brand">
+                <a class="logo" href="@Url.Action("Dashboard", "Dashboard")">
+                    SMS
+                </a>
+                <div class="sidebar-toggle-box">
+                    <div class="fa fa-bars"></div>
+                </div>
+            </div>
+
+            <div class="top-nav clearfix">
+                <ul class="nav pull-right top-menu">
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <img src="~/Content/BackEnd/images/Admin.png" />
+                            <span class="username">
+                                @{
+                                    if (Session["Name"] == null) { }
+                                    else
+                                    {
+                                        @Session["Name"].ToString();
+                                    }
+                                }
+                            </span>
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu extended logout">
+                            <li><a href="@Url.Action("Logout", "Admin")"><i class="fa fa-sign-out"></i>Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <aside>
+            <div id="sidebar" class="nav-collapse">
+                <div class="leftside-navigation">
+                    <ul class="sidebar-menu" id="nav-accordion">
+                        <li>
+                            <a href="@Url.Action("Dashboard", "Dashboard")">
+                                <i class="fa fa-dashboard"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-list-alt"></i>
+                                <span>Department</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Save", "SaveDepartment", "Department")</li>
+                                <li>@Html.ActionLink("View", "ViewDepartment", "Department")</li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-book"></i>
+                                <span>Course</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Save", "SaveCourse", "Course")</li>
+                                <li>@Html.ActionLink("View", "ViewCourse", "Course")</li>
+                                <li>@Html.ActionLink("Enroll", "Enroll", "Course")</li>
+                                <li>@Html.ActionLink("Assign to Teacher", "AssigntoTeacher", "Course")</li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-book"></i>
+                                <span>Teacher</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Save", "SaveTeacher", "Teacher")</li>
+                                <li>@Html.ActionLink("View", "ViewTeacher", "Teacher")</li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-book"></i>
+                                <span>Transportaion Manage</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("View", "Index", "Drivers")</li>
+                                <li>@Html.ActionLink("Details", "Details", "Drivers")</li>
+                                <li>@Html.ActionLink("Create", "Create", "Drivers")</li>
+                                <li>@Html.ActionLink("Edit", "Edit", "Drivers")</li>
+                                <li>@Html.ActionLink("Delete", "Delete", "Drivers")</li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-male"></i>
+                                <span>Student</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Register", "RegisterStudent", "Student")</li>
+                                <li>@Html.ActionLink("Save Result", "SaveResult", "Student")</li>
+                                <li>@Html.ActionLink("View Result", "ViewResult", "Student")</li>
+                            </ul>
+                        </li>
+
+
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-male"></i>
+                                <span>Company</span>
+                            </a>
+                            <ul class="sub">
+                                @*Text show , Action Method , Controller*@
+                                @*<li>@Html.ActionLink("Register", "RegisterStudent", "Company")</li>
+                                  <li>@Html.ActionLink("Save Result", "SaveResult", "Company")</li>
+                                  <li>@Html.ActionLink("View Result", "ViewResult", "Company")</li>*@
+
+
+                                <li>@Html.ActionLink("Save", "SaveCompany", "Company")</li>
+                                <li>@Html.ActionLink("View", "ViewCompany", "Company")</li>
+                            </ul>
+                        </li>
+
+                        @*lessor
+        <li class="sub-menu">
+            <a href="javascript:;">
+                <i class="fa fa-male"></i>
+                <span>Company</span>
+            </a>
+            <ul class="sub">
+                <li>@Html.ActionLink("Register", "RegisterStudent", "Company")</li>
+                <li>@Html.ActionLink("Save Result", "SaveResult", "Company")</li>
+                <li>@Html.ActionLink("View Result", "ViewResult", "Company")</li>
+            </ul>
+        </li>
+                        *@
+                        @*lessee
+        <li class="sub-menu">
+            <a href="javascript:;">
+                <i class="fa fa-male"></i>
+                <span>Company</span>
+            </a>
+            <ul class="sub">
+                <li>@Html.ActionLink("Register", "RegisterStudent", "Company")</li>
+                <li>@Html.ActionLink("Save Result", "SaveResult", "Company")</li>
+                <li>@Html.ActionLink("View Result", "ViewResult", "Company")</li>
+            </ul>
+        </li>*@
+
+
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-male"></i>
+                                <span>Student Attendance</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Create", "Create", "StudentAttendance_tb")</li>
+                                <li>@Html.ActionLink("View Records", "Index", "StudentAttendance_tb")</li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class="fa fa-trello"></i>
+                                <span>Classroom </span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Allocate", "RoomAllocation", "ClassRoom")</li>
+                                <li>@Html.ActionLink("View Schedule", "RoomSchedule", "ClassRoom")</li>
+                            </ul>
+                        </li>
+                        <li class="sub-menu">
+                            <a href="javascript:;">
+                                <i class=" fa fa-times-circle"></i>
+                                <span>Reset</span>
+                            </a>
+                            <ul class="sub">
+                                <li>@Html.ActionLink("Unassign All Courses", "Unassign", "Reset")</li>
+                                <li>@Html.ActionLink("Unallocate All class Rooms", "Unallocate", "Reset")</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Logout", "Admin")">
+                                <i class="fa fa-sign-out"></i>
+                                <span>Log Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+
+        <section id="main-content">
+            
+            @RenderBody()
+
+            <section>
+                <div class="footer">
+                    <div>
+                        <p>&copy; @DateTime.Now.Year SMS. All rights reserved </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </section>
+
+    <script src="~/Content/BackEnd/js/bootstrap.js"></script>
+    <script src="~/Content/BackEnd/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="~/Content/BackEnd/js/scripts.js"></script>
+    <script src="~/Content/BackEnd/js/jquery.slimscroll.js"></script>
+    <script src="~/Content/BackEnd/js/jquery.nicescroll.js"></script>
+    <script src="~/Content/BackEnd/js/jquery.scrollTo.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,64 @@
+﻿@model IEnumerable<UniversityCourseandResultManagement.Models.Driver>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverVehicle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverRoute)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverCNIC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DriverLicense)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverAddress)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverVehicle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverRoute)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverCNIC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DriverLicense)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DriverId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DriverId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DriverId })
+        </td>
+    </tr>
+}
+
+</table>

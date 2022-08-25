@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Show Registered Student";
+    Layout = "~/Views/Shared/_MasterLayoutPage.cshtml";
+}
+
+<section class="wrapper">
+    <div class="form-w3layouts">
+        <div class="row">
+            <div class="col-lg-12">
+                <section class="panel">
+                    <header class="panel-heading">
+                        View Student Info
+                    </header>
+                    <div class="panel-body">
+                        <div class="position-center">
+                        </div>
+
+                        <div class="col-md-8 col-md-offset-2">
+                            <table class="table table-responsive table-striped">
+                                <tr>
+                                    <td>Reg No</td>
+                                    <td>@ViewBag.Student.RegNo</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Name</td>
+                                    <td>@ViewBag.Student.StudentName</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Contact No</td>
+                                    <td>@ViewBag.Student.StudentContact</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Email</td>
+                                    <td>@ViewBag.Student.StudentEmail</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Address</td>
+                                    <td>@ViewBag.Student.StudentAddress</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Date</td>
+                                    <td>@ViewBag.Student.RegDate</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    @{
+                        if (ViewBag.Message == null)
+                        { }
+                        else
+                        {
+                            <div class="alert alert-success" role="alert">
+                                <strong>@ViewBag.Message</strong>
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        }
+                    }
+                </section>
+
+            </div>
+
+        </div>
+    </div>
+</section>
