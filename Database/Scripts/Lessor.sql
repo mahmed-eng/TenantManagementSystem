@@ -14,7 +14,7 @@ IF (NOT EXISTS (SELECT *
 BEGIN
     --Do Stuff
 
-CREATE TABLE [dbo].[Lessor](
+CREATE TABLE [dbo].[Lessor_tb](
 	[BranchId] [int] NOT NULL,
 	[CompanyId] [int] NOT NULL,
 	[Cardnumber] [varchar](30) NOT NULL,
@@ -28,9 +28,9 @@ CREATE TABLE [dbo].[Lessor](
 	[POBox] [varchar](100) NOT NULL,
 	[Email] [varchar](100) NOT NULL,
 	[NOPR] [int] NOT NULL,
-	[CreatedBy] [int] NOT NULL,
+	[CreatedBy] [int]  NULL,
 	[CreatedDate] [datetime] NULL,
-	[UpdatedBy] [int] NOT NULL,
+	[UpdatedBy] [int] NULL,
 	[UpdatedDate] [datetime] NULL,
 	[RecordType] [int] NOT NULL,
 

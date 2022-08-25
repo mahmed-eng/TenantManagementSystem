@@ -14,7 +14,7 @@ IF (NOT EXISTS (SELECT *
                  WHERE TABLE_SCHEMA = 'TheSchema' 
                  AND  TABLE_NAME = 'Company'))
 BEGIN
-    --Do Stuff
+    --Do Stuff--
 
 
 
@@ -28,9 +28,9 @@ CREATE TABLE [dbo].[Company](
 	[Fax] [nvarchar](50) NOT NULL,
 	[Cell] [varchar](50) NOT NULL,
 	[RegisterNumber] [varchar](50) NOT NULL,
-	[CreatedBy] [int] NOT NULL,
+	[CreatedBy] [int] NULL,
 	[CreatedDate] [datetime] NULL,
-	[UpdatedBy] [int] NOT NULL,
+	[UpdatedBy] [int] NULL,
 	[UpdatedDate] [datetime] NULL,
 PRIMARY KEY CLUSTERED 
 (

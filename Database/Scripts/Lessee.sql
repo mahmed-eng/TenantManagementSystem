@@ -30,9 +30,10 @@ CREATE TABLE [dbo].[Lessee_tb](
 	[NOPR] [int] NOT NULL,
 	[CreatedBy] [int] NOT NULL,
 	[CreatedDate] [datetime] NULL,
-	[UpdatedBy] [int] NOT NULL,
+	[UpdatedBy] [int] NULL,
 	[UpdatedDate] [datetime] NULL,
 	[RecordType] [int] NOT NULL,
+	
 PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
