@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity;
+using Microsoft.Owin.Security;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -22,12 +24,19 @@ namespace UniversityCourseandResultManagement.Controllers
             //ViewBag.Designations = aDesignationManager.GetAllDesignations();
             return View(aCompany);
         }
+        private IAuthenticationManager AuthenticationManager
+        {
+            get
+            {
+                return HttpContext.GetOwinContext().Authentication;
+            }
+        }
 
         [HttpPost]
         public ActionResult SaveCompany(Company aCompany)
         {
-           // ViewBag.Departments = aDepartmentManager.GetAllDepartments();
-           // ViewBag.Designations = aDesignationManager.GetAllDesignations();
+            aCompany.CreatedBy = Convert.ToInt16(Session["Id"]);
+            aCompany.CreatedDate = DateTime.Now;
             ViewBag.Message = aCompanyManager.Save(aCompany);
             return View();
         }
