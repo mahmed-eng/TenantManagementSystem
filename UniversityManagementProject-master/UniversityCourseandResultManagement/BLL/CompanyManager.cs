@@ -25,6 +25,7 @@ namespace UniversityCourseandResultManagement.BLL
 
         public List<Company> GetAllCompany()
         {
+            CompanyGateway aCompanyGateway = new CompanyGateway();
             return aCompanyGateway.GetAllCompany();
         }
     }
