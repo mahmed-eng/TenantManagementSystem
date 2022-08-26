@@ -40,18 +40,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.RegisterNumber)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedBy)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedDate)
-            </th>
+            
             <th></th>
         </tr>
 
@@ -79,23 +68,12 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.RegisterNumber)
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CreatedBy)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CreatedDate)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UpdatedBy)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UpdatedDate)
-                </td>
-                <td>
+                
+                @*<td>
                     @Html.ActionLink("Edit", "Edit", new { id = item.CompanyId }) |
                     @Html.ActionLink("Details", "Details", new { id = item.CompanyId }) |
                     @Html.ActionLink("Delete", "Delete", new { id = item.CompanyId })
-                </td>
+                </td>*@
             </tr>
         }
 

@@ -73,29 +73,7 @@
                                     @Html.ValidationMessageFor(t => t.RegisterNumber)
                                 </div>
 
-                                <div class="form-group">
-                                    @Html.LabelFor(t => t.CreatedBy)
-                                    @Html.TextAreaFor(t => t.CreatedBy, new { @class = "form-control" })
-                                    @Html.ValidationMessageFor(t => t.CreatedBy)
-                                </div>
-
-                                <div class="form-group">
-                                    @Html.LabelFor(t => t.CreatedDate)
-                                    @Html.TextBoxFor(t => t.CreatedDate, new { @class = "form-control" })
-                                    @Html.ValidationMessageFor(t => t.CreatedDate)
-                                </div>
-
-                                <div class="form-group">
-                                    @Html.LabelFor(t => t.UpdatedBy)
-                                    @Html.TextAreaFor(t => t.UpdatedBy, new { @class = "form-control" })
-                                    @Html.ValidationMessageFor(t => t.UpdatedBy)
-                                </div>
-
-                                <div class="form-group">
-                                    @Html.LabelFor(t => t.UpdatedDate)
-                                    @Html.TextBoxFor(t => t.UpdatedDate, new { @class = "form-control" })
-                                    @Html.ValidationMessageFor(t => t.UpdatedDate)
-                                </div>
+                               
 
                                 <button type="submit" class="btn btn-info">Save</button>
                             }
@@ -138,10 +116,7 @@
         document.getElementById('Fax').value = '';
         document.getElementById('Cell').value = '';
         document.getElementById('RegisterNumber').value = '';
-        document.getElementById('CreatedBy').value = '';
-        document.getElementById('CreatedDate').value = '';
-        document.getElementById('UpdatedBy').value = '';
-        document.getElementById('UpdatedDate').value = '';
+   
     </script>
 
 }
