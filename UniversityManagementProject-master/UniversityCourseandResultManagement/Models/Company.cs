@@ -12,7 +12,7 @@ namespace UniversityCourseandResultManagement.Models
       
         public int CompanyId { get; set; }
 
-        [Display(Name = "CompamyName")]
+        [Display(Name = "Name")]
 
         [Required(ErrorMessage = "Please Enter Company Name")]
         public string Name { get; set; }
@@ -28,7 +28,7 @@ namespace UniversityCourseandResultManagement.Models
         public string Email { get; set; }
 
         [Display(Name = "Contact No.")]
-        [Required(ErrorMessage = "Please Enter Phone No")]
+        //[Required(ErrorMessage = "Please Enter Phone No")]
        // [RegularExpression(@"\+?(88)?0?1[56789][0-9]{8}\b", ErrorMessage = "Contact No is Not Valid")]
         public string Phone { get; set; }
 
@@ -38,12 +38,12 @@ namespace UniversityCourseandResultManagement.Models
 
 
         [Display(Name = "Cell No.")]
-        [Required(ErrorMessage = "Please Enter Cell No")]
+        //[Required(ErrorMessage = "Please Enter Cell No")]
         public string Cell { get; set; }
 
 
         [Display(Name = "Register No.")]
-        [Required(ErrorMessage = "Please Enter Register No")]
+        //[Required(ErrorMessage = "Please Enter Register No")]
 
         public string RegisterNumber { get; set; }
         
