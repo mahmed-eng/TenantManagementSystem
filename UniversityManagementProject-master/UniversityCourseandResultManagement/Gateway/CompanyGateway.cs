@@ -11,12 +11,38 @@ namespace UniversityCourseandResultManagement.Gateway
     {
         public int Save(Company aCompany)
         {
+            Query = "INSERT INTO Company (Name, Address, Email, Phone, Fax, Cell, RegisterNumber, CreatedBy, CreatedDate) " +
+                    "VALUES(@name, @address, @email, @phone, @fax, @cell, @registerNumber, @createdBy, @createdDate)";
+            Command = new SqlCommand(Query, Connection);
+            Command.Parameters.Clear();
+            Command.Parameters.AddWithValue("name", aCompany.Name);
+            //Command.Parameters.AddWithValue("companyid", aCompany.CompanyId);
+            Command.Parameters.AddWithValue("address", Convert.ToString(aCompany.Address));
+            Command.Parameters.AddWithValue("email", Convert.ToString(aCompany.Email));
+            Command.Parameters.AddWithValue("phone", Convert.ToString(aCompany.Phone));
+            Command.Parameters.AddWithValue("fax", Convert.ToString(aCompany.Fax));
+            Command.Parameters.AddWithValue("cell", Convert.ToString(aCompany.Cell));
+            Command.Parameters.AddWithValue("registerNumber", Convert.ToString(aCompany.RegisterNumber));
+            Command.Parameters.AddWithValue("createdBy", aCompany.CreatedBy);
+            Command.Parameters.AddWithValue("createdDate", aCompany.CreatedDate);
+            //Command.Parameters.AddWithValue("updatedBy", aCompany.UpdatedBy);
+            //Command.Parameters.AddWithValue("updatedDate", aCompany.UpdatedDate);
+
+           
+            Connection.Open();
+            int rowCount = Command.ExecuteNonQuery();
+            Connection.Close();
+            return rowCount;
+        }
+
+        public int Update(Company aCompany)
+        {
             Query = "INSERT INTO Company (Name, Address, Email, Phone, Fax, Cell, RegisterNumber, CreatedBy, CreatedDate, UpdatedBy,UpdatedDate) " +
                     "VALUES(@name, @address, @email, @phone, @fax, @cell, @registerNumber, @createdBy, @createdDate, @updatedBy, @updatedDate)";
             Command = new SqlCommand(Query, Connection);
             Command.Parameters.Clear();
-           // Command.Parameters.AddWithValue("id", aCompany.CompanyId);
             Command.Parameters.AddWithValue("name", aCompany.Name);
+            //Command.Parameters.AddWithValue("companyid", aCompany.CompanyId);
             Command.Parameters.AddWithValue("address", aCompany.Address);
             Command.Parameters.AddWithValue("email", aCompany.Email);
             Command.Parameters.AddWithValue("phone", aCompany.Phone);
@@ -28,13 +54,12 @@ namespace UniversityCourseandResultManagement.Gateway
             Command.Parameters.AddWithValue("updatedBy", aCompany.UpdatedBy);
             Command.Parameters.AddWithValue("updatedDate", aCompany.UpdatedDate);
 
-           
+
             Connection.Open();
             int rowCount = Command.ExecuteNonQuery();
             Connection.Close();
             return rowCount;
         }
-
         public List<Company> GetAllCompany()
         {
             Query = "SELECT * FROM Company";
@@ -46,18 +71,19 @@ namespace UniversityCourseandResultManagement.Gateway
             {
                 Company aCompany = new Company()
                 {
-                  //  CompanyId = Convert.ToInt32(Reader["Id"]),
+                    CompanyId = Convert.ToInt32(Reader["CompanyId"]),
                     Name = Convert.ToString(Reader["Name"]),
                     Address = Convert.ToString(Reader["Address"]),
                     Email = Convert.ToString(Reader["Email"]),
                     Phone = Convert.ToString(Reader["Phone"]),
                     Fax = Convert.ToString(Reader["Fax"]),
                     Cell = Convert.ToString(Reader["Cell"]),
-                    RegisterNumber = Convert.ToString(Reader["RegisterNumber"]),
-                    CreatedBy = Convert.ToInt32(Reader["CreatedBy"]),
-                    CreatedDate = Convert.ToDateTime(Reader["CreatedDate"]),
-                    UpdatedBy = Convert.ToInt32(Reader["UpdatedBy"]),
-                    UpdatedDate = Convert.ToDateTime(Reader["UpdatedDate"])
+                    RegisterNumber = Convert.ToString(Reader["RegisterNumber"])
+                    //,
+                    //CreatedBy = Convert.ToInt32(Reader["CreatedBy"]),
+                    //CreatedDate = Convert.ToDateTime(Reader["CreatedDate"]),
+                    //UpdatedBy = Convert.ToInt32(Reader["UpdatedBy"]),
+                    //UpdatedDate = Convert.ToDateTime(Reader["UpdatedDate"])
                 };
                 Company.Add(aCompany);
             }
