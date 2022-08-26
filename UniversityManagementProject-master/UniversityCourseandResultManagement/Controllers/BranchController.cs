@@ -10,26 +10,30 @@ namespace UniversityCourseandResultManagement.Controllers
 {
     public class BranchController : Controller
     {
-        // DepartmentManager aDepartmentManager = new DepartmentManager();
-        // DesignationManager aDesignationManager = new DesignationManager();
-        BranchManager aBranchManager = new BranchManager();
+        //DepartmentManager aDepartmentManager = new DepartmentManager();
+        CompanyManager aCompanyManager = new CompanyManager();
+           BranchManager aBranchManager = new BranchManager();
 
         [HttpGet]
         public ActionResult SaveBranch()
         {
             Branch aBranch = new Branch();
-            //ViewBag.Departments = aDepartmentManager.GetAllDepartments();
-            //ViewBag.Designations = aDesignationManager.GetAllDesignations();
+            ViewBag.Company = aCompanyManager.GetAllCompany();
+            //ViewBag.Branch = aBranchManager.GetAllBranch();
             return View(aBranch);
         }
 
         [HttpPost]
         public ActionResult SaveBranch(Branch aBranch)
         {
-           // ViewBag.Departments = aDepartmentManager.GetAllDepartments();
-           // ViewBag.Designations = aDesignationManager.GetAllDesignations();
+             //ViewBag.Departments = aDepartmentManager.GetAllDepartments();
+             ViewBag.Company = aCompanyManager.GetAllCompany();
+            // ViewBag.Designations = aDesignationManager.GetAllDesignations();
+
+            aBranch.CreatedBy = Convert.ToInt16(Session["Id"]);
+            aBranch.CreatedDate = DateTime.Now;
             ViewBag.Message = aBranchManager.Save(aBranch);
-            return View();
+            return View(aBranch);
         }
 
         [HttpGet]
@@ -40,10 +44,10 @@ namespace UniversityCourseandResultManagement.Controllers
             return Json(!isExist, JsonRequestBehavior.AllowGet);
         }
 
-        public JsonResult GetBranchById(Branch Branch)
+        public JsonResult GetBranchById(Branch branch)
         {
-            var Branch = aBranchManager.GetAllBranch();
-            var BranchList = Branch.Where(t => t.BranchId == Branch.BranchId).ToList();
+            var Branches = aBranchManager.GetAllBranch();
+            var BranchList = Branches.Where(t => t.BranchId == branch.BranchId).ToList();
             return Json(BranchList);
         }
 
