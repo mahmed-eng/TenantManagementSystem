@@ -7,15 +7,15 @@ using UniversityCourseandResultManagement.Models;
 
 namespace UniversityCourseandResultManagement.BLL
 {
-    public class CompanyManager
+    public class BranchManager
     {
-        CompanyGateway aCompanyGateway = new CompanyGateway();
+        BranchGateway aBranchGateway = new BranchGateway();
 
-        public string Save(Company aCompany)
+        public string Save(Branch aBranch)
         {
-            if (aCompanyGateway.Save(aCompany) > 0)
+            if (aBranchGateway.Save(aBranch) > 0)
             {
-                return "Company Save Successfully!!";
+                return "Branch Save Successfully!!";
             }
             else
             {
@@ -23,10 +23,9 @@ namespace UniversityCourseandResultManagement.BLL
             }
         }
 
-        public List<Company> GetAllCompany()
+        public List<Branch> GetAllBranch()
         {
-            CompanyGateway aCompanyGateway = new CompanyGateway();
-            return aCompanyGateway.GetAllCompany();
+            return aBranchGateway.GetAllBranch();
         }
     }
 }
