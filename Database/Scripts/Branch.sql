@@ -9,7 +9,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 
-IF (NOT EXISTS (SELECT * 
+IF NOT (EXISTS (SELECT * 
                  FROM INFORMATION_SCHEMA.TABLES 
                  WHERE TABLE_SCHEMA = 'TheSchema' 
                  AND  TABLE_NAME = 'Branch_tb'))
@@ -22,16 +22,16 @@ CREATE TABLE [dbo].[Branch_tb](
 	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Name] [varchar](200) NULL,
 	[Address] [varchar](300) NULL,
-	[Email] [varchar](100) NOT NULL,
-	[Phone] [varchar](100) NOT NULL,
-	[Fax] [nvarchar](50) NOT NULL,
-	[Cell] [varchar](50) NOT NULL,
-	[RegisterNumber] [varchar](50) NOT NULL,
-	[CreatedBy] [int] NOT NULL,
+	[Email] [varchar](100) NULL,
+	[Phone] [varchar](100) NULL,
+	[Fax] [nvarchar](50) NULL,
+	[Cell] [varchar](50) NULL,
+	[RegisterNumber] [varchar](50) NULL,
+	[CreatedBy] [int] NULL,
 	[CreatedDate] [datetime] NULL,
-	[UpdatedBy] [int] NOT NULL,
+	[UpdatedBy] [int] NULL,
 	[UpdatedDate] [datetime] NULL,
-	
+
 PRIMARY KEY CLUSTERED 
 (
 	[Id] ASC
@@ -41,7 +41,3 @@ PRIMARY KEY CLUSTERED
 END
 
 GO
-
-
-
-
