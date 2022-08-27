@@ -10,18 +10,18 @@ GO
 IF (NOT EXISTS (SELECT * 
                  FROM INFORMATION_SCHEMA.TABLES 
                  WHERE TABLE_SCHEMA = 'TheSchema' 
-                 AND  TABLE_NAME = 'Lessee_tb'))
+                 AND  TABLE_NAME = 'LesseeLessor_tb'))
 BEGIN
     --Do Stuff
 
-CREATE TABLE [dbo].[LessorLessor_tb](
+CREATE TABLE [dbo].[LesseeLessor_tb](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[BranchId] [int] NOT NULL,
 	[CompanyId] [int] NOT NULL,
 	[Cardnumber] [varchar](30) NOT NULL,
 	[Name] [varchar](200) NULL,
 	[Peneficiary] [varchar](300) NULL,
 	[Profession] [varchar](300) NULL,
-	[Id] [int] IDENTITY(1,1) NOT NULL,
 	[Address] [varchar](300) NULL,
 	[Fax] [nvarchar](50) NOT NULL,
 	[Telephone] [varchar](50) NOT NULL,
@@ -32,7 +32,7 @@ CREATE TABLE [dbo].[LessorLessor_tb](
 	[CreatedDate] [datetime] NULL,
 	[UpdatedBy] [int] NULL,
 	[UpdatedDate] [datetime] NULL,
-	[RecordType] [int] NOT NULL,
+	[RecordType] [int] NOT NULL DEFAULT 1,
 
 PRIMARY KEY CLUSTERED 
 (
